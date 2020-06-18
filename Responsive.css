@@ -1,0 +1,10 @@
+/*____________________________________________responsive_____________________________*/
+@media(min-width:700px){
+    .section-taller{
+    }
+    .Talleres-item{
+        float: left;
+        position: relative;
+    }
+    
+  }

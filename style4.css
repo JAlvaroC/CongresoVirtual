@@ -1,0 +1,106 @@
+
+.section-taller{
+    /* height: 1300px; */
+    width: 100%;
+}
+h2 {
+    font-size: 2em;
+    color: rgb(224, 236, 109);
+}
+h3 {
+    font-size: 1em;
+    /* position: absolute; */
+    color: white;
+    font-weight: 1000;
+    font-style: italic;
+    /* margin-left: 5%; */
+}
+.Talleres5
+{
+    text-align: center;
+    /* margin: 5% 5%; */
+}
+.rowTaller
+{
+  /* background-color: rgb(172, 179, 77); */
+  margin-bottom: 5%;
+}
+.Talleres-item
+{
+  /* width: 100%;
+  display: block; */
+  /* justify-content: center; */
+  /* align-items: center;  */
+  /* text-align: center; */
+  /* height: 100vh; */
+  margin: 20px;
+  align-items: center;
+  width: 420px;
+}
+.Talleres-item figure
+{
+  position: relative;
+  height: 300px;
+  width: 350px;
+  /* margin: 3% 7.5%; */
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0 15px 25px;
+  overflow: hidden;
+  cursor: pointer;
+}
+/* .Talleres-item:hover
+{
+  background-color: azure;
+} */
+.Talleres-item figure .image-taller
+{
+  height: 100%;
+  width: 100%;
+  transition: all 500ms ease-out;
+}
+.Talleres-item figure .Talleres5-info
+{
+  position: absolute;
+  top:0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(216, 216, 135, 0.8);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+/* dandole el efecto al contenedor */
+.Talleres-item figure:hover > .Talleres5-info
+{
+  opacity: 1;
+  visibility: visible;
+} 
+.Talleres-item figure:hover > .Talleres5-info p
+{
+  margin-top:70px ;
+  /* margin-bottom: 15px; */
+} 
+.Talleres-item figure:hover > .Talleres5-info p
+{
+  color: antiquewhite;
+  font-weight: 800;
+  /* margin-bottom: 120px; */
+  transition: all 500ms ease-out;
+  /* margin-top: 30px; */
+} 
+.Talleres-item figure:hover > .Talleres5-info p
+{
+  color: rgb(12, 12, 11);
+  font-size: 15px;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 220px;
+  margin-left: 17%;
+  /* margin: auto; */
+} 
+.Talleres5-text
+{
+    background: transparent;
+}

@@ -1,0 +1,60 @@
+
+.w3-topnuevo
+{
+    /* background-color: rgb(158, 186, 228); */
+    color: rgb(241, 240, 138);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border: 0;
+    background: rgb(56, 114, 201) !important;
+    z-index: 9;
+    min-height: 20px;
+}
+.w3-bar-item{
+    margin-bottom: -0.4%;
+}
+.content-section {
+
+    background-image: url("./img/portal.jpg");
+     height: 2300px; 
+     width: 100%; 
+     padding-top: 10%;
+     margin:0;
+     background-size: cover;
+     /* position: relative; */
+     /* display: flex; */
+     /* flex-direction: column; */
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     background-color: rgb(28, 82, 165);
+     /* position: absolute; */
+     opacity: 0.83;
+     /* top: 0px; z-index: 0; 
+     background-position: 50% 0px; opacity: 1;
+     font-size: 5em;
+     text-align:center;
+     background-color: rgb(28, 82, 165); */
+  }
+  .content-section{
+      z-index: 1;
+  }
+  footer{
+      margin-top: 0;
+  }
+  .formulario-inscripciones
+  {
+      text-align: center;
+      margin: 15%;
+      
+      /* opacity: 0.5; */
+        /* z-index: 1; */
+  }
+  /* ultimas modificaciones */
+.var-title1,.var-title2,.var-title3,.var-title4{
+    background-color: rgb(179, 107, 107);
+  }
+  /* css de TALLERES */
+  

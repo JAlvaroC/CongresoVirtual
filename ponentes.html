@@ -1,0 +1,282 @@
+i<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logos1.ico" type="image/x-icon">
+    <meta name="description" content="I Congreso Internacional Virtual de Ingeniería de Sistemas
+    ¡La Cultura Digital en una Sociedad Virtual!
+    ">
+<!--enlaza con el icono que esta al lado izquierdo de cada pestaña-->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <link rel="stylesheet" href="estilo.css"> -->
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="Responsive.css">
+    <link rel="stylesheet" href="normalize.css">
+    <title>Ponentes</title>
+</head>
+<body>
+    <!-- barra de navegacion (sentarse en la parte superior)--> 
+<div class="w3-top w3-topnuevo">
+    <div class="w3-bar" id="myNavbar">
+      <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+        <i class="fa fa-bars"></i>
+      </a>
+      <!-- header==encabezamiento  -->
+      <header> <img src="img/logos1.ico"  alt="logo Sistemas" width="50" height="50" class="w3-bar-item"></header>
+      <a href="Cronograma.html" class="w3-bar-item w3-button var-title">CRONOGRAMA</a>
+      <a href="ponentes.html" class="w3-bar-item w3-button w3-hide-small var-title4"><i class="fa fa-user"></i> PONENTES</a>
+      <a href="talleres.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> TALLERES</a>
+      <a href="inscripciones.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> INSCRIPCIONES</a>
+      <a href="index3.html" class="w3-bar-item w3-button w3-hide-small"> INICIO</a>
+      <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+        <i class="fa fa-search"></i>
+      </a>
+      <!-- <a href="#home" class="w3-bar-item w3-button">¡La Cultura Digital en una Sociedad Virtual</a> -->
+    </div>
+  
+    <!-- Barra de navegación en pantallas pequeñas -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+      <a href="Cronograma.html" class="w3-bar-item w3-button" onclick="toggleFunction()">CRONOGRAMA</a>
+      <a href="ponentes.html" class="w3-bar-item w3-button" onclick="toggleFunction()">PONENTES</a>
+      <a href="talleres.html" class="w3-bar-item w3-button" onclick="toggleFunction()">TALLERES</a>
+      <a href="inscripciones.html" class="w3-bar-item w3-button" onclick="toggleFunction()">INSCRIPCIONES</a>
+      <a href="#" class="w3-bar-item w3-button">BUSCAR</a>
+      <a href="index3.html" class="w3-bar-item w3-button">INICIO</a>
+    </div>
+</div>
+<!-- Segunda imagen de paralaje con Portfolio Texto -->
+<body>
+
+<!-- Side Navigation -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-white w3-animate-left w3-card" style="z-index:3;width:320px;" id="mySidebar">
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-border-bottom w3-large"><img src="" style="background: transparent;" style="width:60%;"></a>
+  <a href="javascript:void(0)" onclick="w3_close()" title="Close Sidemenu" 
+  class="w3-bar-item w3-button w3-hide-large w3-large">Close <i class="fa fa-remove"></i></a>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-dark-grey w3-button w3-hover-black w3-left-align" onclick="document.getElementById('id01').style.display='block'">PONENTES <i class="w3-padding fa fa-pencil"></i></a>
+  <a id="myBtn" onclick="myFunc('Demo1')" href="javascript:void(0)" class="w3-bar-item w3-button"><i class="fa fa-inbox w3-margin-right"></i>LISTA DE PONENTES<i class="fa fa-caret-down w3-margin-left"></i></a>
+  <div id="Demo1" class="w3-hide w3-animate-left">
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-border-bottom test w3-hover-light-grey" onclick="openMail('Borge');w3_close();" id="firstTab">
+      <div class="w3-container">
+        <img class="w3-round w3-margin-right" src="img/iconos/usuario.png" style="width:15%;"><span class="w3-opacity w3-large">MERCEDES LAZARO</span>
+        <!-- ponente uno en la barra -->
+        <p>Soy una profesional titulada colegiada como Ingeniera de
+          Sistemas, maestro en gestión y negocios...</p>
+      </div>
+    </a>
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-border-bottom test w3-hover-light-grey" onclick="openMail('Jane');w3_close();">
+      <div class="w3-container">
+        <img class="w3-round w3-margin-right" src="img/iconos/usuario.png" style="width:15%;"><span class="w3-opacity w3-large">JHOSEP VALENZUELA</span>
+        <p>Ingeniero de Sistemas con Maestría en Ciencias de Tecnologías de Información concentrado en Ciberseguridad ...</p>
+      </div>
+    </a>
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-border-bottom test w3-hover-light-grey" onclick="openMail('John');w3_close();">
+      <div class="w3-container">
+        <img class="w3-round w3-margin-right" src="img/iconos/usuario.png" style="width:15%;"><span class="w3-opacity w3-large">WALTER TEOFILO</span>
+        <p>•	Especialista en manejo de equipos de Transportes Fibra Óptica
+          Especialista en equipos de Telecomunicaciones ...
+          </p>
+      </div>
+    </a>
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-border-bottom test w3-hover-light-grey" onclick="openMail('John');w3_close();">
+      <div class="w3-container">
+        <img class="w3-round w3-margin-right" src="img/iconos/usuario.png" style="width:15%;"><span class="w3-opacity w3-large">WALTER TEOFILO</span>
+        <p>•	Especialista en manejo de equipos de Transportes Fibra Óptica
+          Especialista en equipos de Telecomunicaciones ...
+          </p>
+  </div>
+  <!-- <a href="#" class="w3-bar-item w3-button"><i class="fa fa-paper-plane w3-margin-right"></i>Sent</a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-hourglass-end w3-margin-right"></i>Drafts</a>
+  <a href="#" class="w3-bar-item w3-button"><i class="fa fa-trash w3-margin-right"></i>Trash</a> -->
+</nav>
+
+Modal that pops up when you click on "New Message" -
+<div id="id01" class="w3-modal" style="z-index:4">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-padding w3-red">
+       <span onclick="document.getElementById('id01').style.display='none'"
+       class="w3-button w3-red w3-right w3-xxlarge"><i class="fa fa-remove"></i></span>
+      <h2>Send Mail</h2>
+    </div>
+    <div class="w3-panel">
+      <label>To</label>
+      <input class="w3-input w3-border w3-margin-bottom" type="text">
+      <label>From</label>
+      <input class="w3-input w3-border w3-margin-bottom" type="text">
+      <label>Subject</label>
+      <input class="w3-input w3-border w3-margin-bottom" type="text">
+      <input class="w3-input w3-border w3-margin-bottom" style="height:150px" placeholder="What's on your mind?">
+      <div class="w3-section">
+        <a class="w3-button w3-red" onclick="document.getElementById('id01').style.display='none'">Cancel &nbsp;<i class="fa fa-remove"></i></a>
+        <a class="w3-button w3-light-grey w3-right" onclick="document.getElementById('id01').style.display='none'">Send &nbsp;<i class="fa fa-paper-plane"></i></a> 
+      </div>    
+    </div>
+  </div>
+</div>
+
+<!-- Overlay effect when opening the side navigation on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="Close Sidemenu" id="myOverlay"></div>
+
+<!-- Page content -->
+<div class="w3-main" style="margin-left:320px;">
+<i class="fa fa-bars w3-button w3-white w3-hide-large w3-xlarge w3-margin-left w3-margin-top" onclick="w3_open()"></i>
+
+<a href="javascript:void(0)" ><i ></i></a>
+<!-- 
+<a href="javascript:void(0)" class="w3-hide-large w3-red w3-button w3-right w3-margin-top w3-margin-right" onclick="document.getElementById('id01').style.display='block'"><i class="fa fa-pencil"></i></a> -->
+
+<div id="Borge" class="w3-container person">
+  <br>
+  <img class="w3-round  w3-animate-top" src="img/ponentes/avatar1.png" style="width:20%;">
+  
+  <!-- <h5 class="w3-opacity">Ponente:Mercedes Lázaro Tacuchi </h5> -->
+  <h4><i > AREA: GESTION DE CALIDAD</i> <p>Ponente:Mercedes Lázaro Tacuchi </p> 
+
+  </h4>
+  <!-- <h4><i class="fa fa-clock-o"></i>Ponente:Mercedes Lázaro Tacuchi  -->
+  <!-- <a class="w3-button w3-light-grey" href="#">Reply<i class="w3-margin-left fa fa-mail-reply"></i></a>
+  <a class="w3-button w3-light-grey" href="#">Forward<i class="w3-margin-left fa fa-arrow-right"></i></a> -->
+  <hr>
+  <p>Soy una profesional titulada colegiada como Ingeniera de
+    Sistemas, maestro en gestión y negocios; me caracterizo por ser
+    responsable, puntual, solidaria, honesta, empática y respetuosa.
+    Siempre he trabajo con una posición efectiva, la cual puedo
+    manifestar que me agrada cumplir con las funciones asignadas
+    en los tiempos determinados, apoyar en otras funciones si el
+    tiempo me lo permite.
+    Me caracterizo una persona que fácilmente se adapta a los
+    cambios, que de manera rápida aprende y/o desarrolla nuevos
+    conocimientos / habilidades en bien de la institución o área de
+    <!-- trabajo.
+    APTITUD
+    Capacidad de iniciativa
+    Adaptabilidad
+    Capacidad para resolver
+    problemas
+    Trabajo en equipo
+    Integridad
+    Versatilidad
+    Seriedad
+    Liderazgo
+    CONTACTO
+    Edad : 30 años
+    Domicilio : Condominio Sol de Retablo
+    Block G12, Departamento
+    507.
+    Ciudad : Lima – Perú
+    Num. de Celular personal : 954401204
+    Num. de Celular ref. : 930951786
+    Estado civil : Soltera
+    E-mail : mercedes.lazarot@gmail.com   -->
+     <br>Borge Refsnes</p>
+</div>
+
+<div id="Jane" class="w3-container person">
+  <br>
+  <img class="w3-round w3-animate-top" src="img/ponentes/avatar3.png" style="width:20%;">
+  <!-- <h5 class="w3-opacity">Ponente: Jhosep Valenzuela</h5> -->
+  <h4><i >AREA: TICs</i> <p> Ponente:    Jhosep Valenzuela</p></h4>
+  <!-- <h4><i class="fa fa-clock-o"></i> <p> Ponente: Jhosep Valenzuela</p></h4> -->
+  <!-- <a class="w3-button w3-light-grey">Reply<i class="w3-margin-left fa fa-mail-reply"></i></a>
+  <a class="w3-button w3-light-grey">Forward<i class="w3-margin-left fa fa-arrow-right"></i></a> -->
+  <hr>
+  <p>Ingeniero de Sistemas con Maestría en Ciencias de Tecnologías de Información concentrado en Ciberseguridad y Certificado Profesional de Seguridad en Sistemas de Información (CISSP). Experiencia laboral de 10 años en medianas y grandes empresas del sector privado y público. Experiencia en la planificación, implementación, operación, mantenimiento y optimización de las Infraestructuras de TI de manera efectiva, logrando altos niveles de confidencialidad, integridad, disponibilidad y rendimiento. Orientado a objetivos y fuerte ética profesional. Identificador de problemas y sólidas capacidades de resolución en diferentes entornos de TI.<br>Jane</p>
+</div>
+
+<div id="John" class="w3-container person">
+  <br>
+  <img class="w3-round w3-animate-top" src="img/ponentes/avatar3.png" style="width:20%;">
+  <!-- <h5 class="w3-opacity">Ponente: Walter Teofilo Baldeon Canchaya</h5> -->
+  <h4><i >AREA:  Operación y Mantenimiento Zonal de redes
+    y servicios
+    <i> <p>Ponente: Walter Teofilo Baldeon Canchaya</p> </h4>
+  <!-- <h4><i class="fa fa-clock-o"></i> Ponente: Walter Teofilo Baldeon Canchaya</h4> -->
+
+  <!-- <a class="w3-button w3-light-grey">Reply<i class="w3-margin-left fa fa-mail-reply"></i></a>
+  <a class="w3-button w3-light-grey">Forward<i class="w3-margin-left fa fa-arrow-right"></i></a> -->
+  <hr>
+  <p>ING. de Sistemas e Informática
+    CIP 122481
+MG. Ingeniería de Sistemas
+MENCION: Gerencia de Sistemas y Tecnología de Información
+
+
+                EXPERIENCIA:
+•	Especialista en manejo de equipos de Transportes Fibra Óptica
+•	Especialista en equipos de Telecomunicaciones Microondas, Satélite, Fibra Óptica,
+•	Especialista en Redes y Telecomunicaciones CCNA  
+•	Instructor reconocido por CISCO.
+•	Especialista en  Estaciones Base Celular, (2G,3G,4G,LTE, Banda 700)
+•	Experiencia en BW Tecnologías Huawei
+•	Manejo de Metodologías  ITIL, COBIT, CMMI , PMBOCK 
+•	Experiencia en  Tecnologías FTTH (GPON)
+</p>
+  <p>That's it!</p>
+</div>
+     
+</div>
+
+<script>
+var openInbox = document.getElementById("myBtn");
+openInbox.click();
+
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+function myFunc(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show"; 
+    x.previousElementSibling.className += " w3-red";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace(" w3-red", "");
+  }
+}
+
+openMail("Borge")
+function openMail(personName) {
+  var i;
+  var x = document.getElementsByClassName("person");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x = document.getElementsByClassName("test");
+  for (i = 0; i < x.length; i++) {
+    x[i].className = x[i].className.replace(" w3-light-grey", "");
+  }
+  document.getElementById(personName).style.display = "block";
+  event.currentTarget.className += " w3-light-grey";
+}
+</script>
+
+<script>
+var openTab = document.getElementById("firstTab");
+openTab.click();
+</script>
+
+</body>
+</html> 
+
+  </div>
+</div>
+    
+  </div> -->
+
+  <script src="JS/index.js">
+
+  </script>
+  
+</body>
+</html>
